@@ -1,0 +1,31 @@
+# config file made by liv!
+
+
+# HEY HEY HEY SPRUNGLES READ THIS
+#
+# - https://wiki.archlinux.org/title/Alacritty#No_title_bar_on_Wayland_GNOME
+#
+# GNOME FIX THE SHIT
+
+
+# make the terminal pretty 
+
+[font]
+size = 15.0
+
+
+# i am too lazy to add colors/ please go to the config folder and in the themes folder you can choose whatever color you want
+[general]
+import = [
+    "~/.config/alacritty/themes/themes/github_dark.toml"
+]
+
+
+[window]
+opacity = 0.9
+title = "AcreetionOS's Alacritty!"
+
+# only works on KDE but i find it cute. sorry gnome and cinnamon users
+blur = true
+
+
